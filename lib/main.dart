@@ -113,9 +113,12 @@ class _MyWidgetState extends State<MyWidget> {
 }
 
 //keterangan
+
 // StatelessWidget (widget tanpa perubahan / tetap)
 //    Widget ini tidak menyimpan data yang berubah ataupun memperngaruhi tampilan yang berubah pada widget.
 //    Isinya tetap dari awal sampai akhir — kayak tulisan di tembok, tidak berubah kecuali dibongkar total.
 // StatefulWidget (widget yang bisa berubah)
 //    Widget ini menyimpan data (state) dan bisa berubah sesuai interaksi atau logikan dan dapat mempengaruhi tampilan widget.
 //    Kayak papan tulis — bisa ditulis, dihapus, diubah kapan saja.
+// set state
+//    Fungsi yang digunakan dalam StatefulWidget untuk memperbarui UI ketika ada perubahan data.
